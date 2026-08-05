@@ -5,13 +5,15 @@
 ![License](https://img.shields.io/badge/License-Proprietary%20%2F%20INPI%20Registered-red.svg)
 ![R](https://img.shields.io/badge/R%20Version-4.3.0%2B-blue.svg)
 
-Developed by the **Process Analytical Technology Laboratory (LTAP-UERJ)** in international collaboration with **CONICET**, this application is a comprehensive tool for multi-way tensor decomposition, second-order calibration, and analyte quantification exploiting the **Second-Order Advantage** in complex chemometric datasets (e.g., EEM fluorescence matrices, LC-DAD data).
+Developed by the **[Process Analytical Technology Laboratory (LTAP-UERJ)](https://www.ltapuerj.com.br/)** in international collaboration with **Universidad Nacional del Litoral (UNL)** and **Universidad Nacional de Rosario (UNR)** (Santa Fe, Argentina) / **CONICET**, this application is a comprehensive tool for multi-way tensor decomposition, second-order calibration, and analyte quantification exploiting the **Second-Order Advantage** in complex chemometric datasets (e.g., EEM fluorescence matrices, LC-DAD data).
 
 ---
 
 ## 🔗 Quick Links
 
 * **Online Web App:** [Access on Shinyapps.io](https://ltap.shinyapps.io/second_order_calibration/)
+* **Desktop Executable Download:** [Download Executable (Google Drive)](https://drive.google.com/drive/folders/1l8dB4BGKVjqPMrvA5ZCLvafRNtTOCFew?usp=drive_link)
+* **Official Website:** [LTAP-UERJ Portal](https://www.ltapuerj.com.br/)
 * **Software Registration (INPI):** [LTAP-UERJ CWA — Registros de Software](https://sites.google.com/view/ltap-uerj/cwa)
 * **Support & Licensing:** [licarion@gmail.com](mailto:licarion@gmail.com) | [ltapuerj@gmail.com](mailto:ltapuerj@gmail.com)
 
@@ -24,12 +26,12 @@ This module was developed by an international multidisciplinary team of chemomet
 | Author | Affiliation | Profile / Contact |
 | :--- | :--- | :--- |
 | **[Paulo Sérgio de Oliveira Cezário](http://lattes.cnpq.br/5098915046998337)** | LTAP — UERJ | [Lattes Profile](http://lattes.cnpq.br/5098915046998337) |
-| **[Aderval Severino Luna](http://lattes.cnpq.br/0294676847895948)** | LTAP — UERJ | [Lattes Profile](http://lattes.cnpq.br/0294676847895948) |
+| **[Aderval Severino Luna](http://lattes.cnpq.br/0294676847895948)** | UERJ | [Lattes Profile](http://lattes.cnpq.br/0294676847895948) |
 | **[José Licarion Pinto Segundo Neto](http://lattes.cnpq.br/5267552018296169)** | LTAP — UERJ | [Lattes Profile](http://lattes.cnpq.br/5267552018296169) |
-| **[Fabricio Chiappini](https://www.researchgate.net/profile/Fabricio-Chiappini)** | CONICET | [ResearchGate Profile](https://www.researchgate.net/profile/Fabricio-Chiappini) |
-| **[Benjamín Ángel Pisaroni](https://bicyt.conicet.gov.ar/fichas/p/benjamin-angel-pisaroni)** | CONICET | [CONICET Profile](https://bicyt.conicet.gov.ar/fichas/p/benjamin-angel-pisaroni) |
-| **[Héctor Casimiro Goicoechea](https://www.researchgate.net/profile/Hector-Goicoechea)** | CONICET | [ResearchGate Profile](https://www.researchgate.net/profile/Hector-Goicoechea) |
-| **[Alejandro Cesar Olivieri](https://www.researchgate.net/profile/Alejandro-Olivieri)** | CONICET | [ResearchGate Profile](https://www.researchgate.net/profile/Alejandro-Olivieri) |
+| **[Fabricio Chiappini](https://www.researchgate.net/profile/Fabricio-Chiappini)** | UNL / CONICET | [ResearchGate Profile](https://www.researchgate.net/profile/Fabricio-Chiappini) |
+| **[Benjamín Ángel Pisaroni](https://bicyt.conicet.gov.ar/fichas/p/benjamin-angel-pisaroni)** | UNL / CONICET | [CONICET Profile](https://bicyt.conicet.gov.ar/fichas/p/benjamin-angel-pisaroni) |
+| **[Héctor Casimiro Goicoechea](https://www.researchgate.net/profile/Hector-Goicoechea)** | UNL / CONICET | [ResearchGate Profile](https://www.researchgate.net/profile/Hector-Goicoechea) |
+| **[Alejandro Cesar Olivieri](https://www.researchgate.net/profile/Alejandro-Olivieri)** | UNR / CONICET | [ResearchGate Profile](https://www.researchgate.net/profile/Alejandro-Olivieri) |
 
 ---
 
@@ -120,15 +122,16 @@ This module was developed by an international multidisciplinary team of chemomet
 
 ## 💻 Access & Execution
 
-This application is distributed under closed-source terms (the underlying `app.R` source code is not publicly distributed). Access is available through two deployment targets:
+This application is distributed under proprietary closed-source terms (the underlying `app.R` source code is not publicly distributed). Access is available through two distribution models:
 
 1. **🌐 Online Web Version (Shinyapps.io):**
    * Access directly via web browser without installing R or any dependencies:
    * 🔗 **[https://ltap.shinyapps.io/second_order_calibration/](https://ltap.shinyapps.io/second_order_calibration/)**
 
 2. **🖥️ Desktop Executable Version:**
-   * Standalone Windows executable bundle (`.exe`) with an embedded runtime environment. No prior R installation required on the target machine.
-   * Contact the authors or laboratory for desktop installer requests.
+   * Standalone Windows executable bundle (`.exe`) with an embedded runtime environment. No prior R installation required on the target computer.
+   * Download the executable for Second Order Calibration and other LTAP CWA modules here:
+   * 🔗 **[LTAP CWA Executables Folder (Google Drive)](https://drive.google.com/drive/folders/1l8dB4BGKVjqPMrvA5ZCLvafRNtTOCFew?usp=drive_link)**
 
 ---
 
@@ -150,10 +153,10 @@ This application is distributed under closed-source terms (the underlying `app.R
 > This software, its interface designs, compiled binaries, and underlying algorithmic implementations are protected under Intellectual Property laws (Brazilian Software Law No. 9.609/98 and Industrial Property Law No. 9.279/96) and registered at the **National Institute of Industrial Property (INPI)**. 
 
 ### **Terms of Use & Protection Clause:**
-1. **Mandatory Attribution:** Any academic work, study, publication, software integration, or presentation utilizing or referencing this application **must explicitly credit** the authors (**Paulo Sérgio de Oliveira Cezário, Aderval Severino Luna, José Licarion Pinto Segundo Neto, Fabricio Chiappini, Benjamín Ángel Pisaroni, Héctor Casimiro Goicoechea, Alejandro Cesar Olivieri**) and the **Process Analytical Technology Laboratory (LTAP-UERJ / CONICET)**.
+1. **Mandatory Attribution:** Any academic work, study, publication, software integration, or presentation utilizing or referencing this application **must explicitly credit** the authors (**Paulo Sérgio de Oliveira Cezário, Aderval Severino Luna, José Licarion Pinto Segundo Neto, Fabricio Chiappini, Benjamín Ángel Pisaroni, Héctor Casimiro Goicoechea, Alejandro Cesar Olivieri**), the **Process Analytical Technology Laboratory ([LTAP-UERJ](https://www.ltapuerj.com.br/))**, **UNL**, **UNR**, and **CONICET**.
 2. **Prohibition of Unauthorized Reproduction & Redistribution:** Copying, modifying, decompiling, reverse engineering, re-licensing, sub-licensing, mirroring, or redistributing the binary executables or deployment packages without explicit prior written consent from LTAP-UERJ is strictly prohibited.
 3. **Non-Commercial Use Only:** The application may only be used for personal, educational, or non-commercial academic research purposes unless a specific commercial license has been granted by LTAP-UERJ.
-4. **Disclaimer of Liability:** LTAP-UERJ, CONICET, and the developers accept no responsibility or liability for damages, misinterpretation, or loss resulting from the use of this software or its generated datasets. The software is provided "as is", without warranties of any kind.
+4. **Disclaimer of Liability:** LTAP-UERJ, UNL, UNR, CONICET, and the developers accept no responsibility or liability for damages, misinterpretation, or loss resulting from the use of this software or its generated datasets. The software is provided "as is", without warranties of any kind.
 
 For licensing inquiries or commercial use permissions, please contact [licarion@gmail.com](mailto:licarion@gmail.com) or [ltapuerj@gmail.com](mailto:ltapuerj@gmail.com).
 
@@ -161,7 +164,7 @@ For licensing inquiries or commercial use permissions, please contact [licarion@
 
 ## 📧 Contact & Institutional Support
 
-**Process Analytical Technology Laboratory (LTAP/UERJ)** & **CONICET**
+**[Process Analytical Technology Laboratory (LTAP/UERJ)](https://www.ltapuerj.com.br/)**, **UNL**, **UNR** & **CONICET**
 
 We acknowledge financial and institutional support from **UERJ** (Programa Pró-Ciência and INOVUERJ), **FAPERJ** (JCNE and CNE research scholarships), **CONICET**, **CNPq** (Universal Grant 404077/2023-4), and **CAPES**.
 
@@ -170,6 +173,8 @@ We acknowledge financial and institutional support from **UERJ** (Programa Pró-
 <p align="center">
   <a href="https://www.ltapuerj.com.br/">LTAP-UERJ</a> •
   <a href="https://www.uerj.br/">UERJ</a> •
+  <a href="https://www.unl.edu.ar/">UNL</a> •
+  <a href="https://unr.edu.ar/">UNR</a> •
   <a href="https://www.conicet.gov.ar/">CONICET</a> •
   <a href="https://www.faperj.br/">FAPERJ</a> •
   <a href="https://www.gov.br/cnpq/pt-br">CNPq</a> •
