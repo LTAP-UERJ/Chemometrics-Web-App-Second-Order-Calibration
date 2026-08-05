@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-Proprietary%20%2F%20INPI%20Registered-red.svg)
 ![R](https://img.shields.io/badge/R%20Version-4.3.0%2B-blue.svg)
 
-Developed by **José Licarion Pinto Segundo Neto** at the **Process Analytical Technology Laboratory (LTAP-UERJ)**, this application is a comprehensive tool for multi-way tensor decomposition, second-order calibration, and analyte quantification exploiting the **Second-Order Advantage** in complex chemometric datasets (e.g., EEM fluorescence matrices, LC-DAD data).
+Developed by the **Process Analytical Technology Laboratory (LTAP-UERJ)** in international collaboration with **CONICET**, this application is a comprehensive tool for multi-way tensor decomposition, second-order calibration, and analyte quantification exploiting the **Second-Order Advantage** in complex chemometric datasets (e.g., EEM fluorescence matrices, LC-DAD data).
 
 ---
 
@@ -14,6 +14,22 @@ Developed by **José Licarion Pinto Segundo Neto** at the **Process Analytical T
 * **Online Web App:** [Access on Shinyapps.io](https://ltap.shinyapps.io/second_order_calibration/)
 * **Software Registration (INPI):** [LTAP-UERJ CWA — Registros de Software](https://sites.google.com/view/ltap-uerj/cwa)
 * **Support & Licensing:** [licarion@gmail.com](mailto:licarion@gmail.com) | [ltapuerj@gmail.com](mailto:ltapuerj@gmail.com)
+
+---
+
+## 👥 Developers & Authors
+
+This module was developed by an international multidisciplinary team of chemometrics researchers:
+
+| Author | Affiliation | Profile / Contact |
+| :--- | :--- | :--- |
+| **[Paulo Sérgio de Oliveira Cezário](http://lattes.cnpq.br/5098915046998337)** | LTAP — UERJ | [Lattes Profile](http://lattes.cnpq.br/5098915046998337) |
+| **[Aderval Severino Luna](http://lattes.cnpq.br/0294676847895948)** | LTAP — UERJ | [Lattes Profile](http://lattes.cnpq.br/0294676847895948) |
+| **[José Licarion Pinto Segundo Neto](http://lattes.cnpq.br/5267552018296169)** | LTAP — UERJ | [Lattes Profile](http://lattes.cnpq.br/5267552018296169) |
+| **[Fabricio Chiappini](https://www.researchgate.net/profile/Fabricio-Chiappini)** | CONICET | [ResearchGate Profile](https://www.researchgate.net/profile/Fabricio-Chiappini) |
+| **[Benjamín Ángel Pisaroni](https://bicyt.conicet.gov.ar/fichas/p/benjamin-angel-pisaroni)** | CONICET | [CONICET Profile](https://bicyt.conicet.gov.ar/fichas/p/benjamin-angel-pisaroni) |
+| **[Héctor Casimiro Goicoechea](https://www.researchgate.net/profile/Hector-Goicoechea)** | CONICET | [ResearchGate Profile](https://www.researchgate.net/profile/Hector-Goicoechea) |
+| **[Alejandro Cesar Olivieri](https://www.researchgate.net/profile/Alejandro-Olivieri)** | CONICET | [ResearchGate Profile](https://www.researchgate.net/profile/Alejandro-Olivieri) |
 
 ---
 
@@ -76,10 +92,10 @@ Developed by **José Licarion Pinto Segundo Neto** at the **Process Analytical T
 
 ---
 
-## 🛠️ Technical Stack & Dependencies
+## 🛠️ Technical Stack & Environment
 
 ### **Build & Compilation Environment**
-* **Language & Runtime:** `R (>= 4.3.0)`
+* **Language Runtime:** `R (>= 4.3.0)`
 
 ### **Core R Dependencies & Libraries**
 | Package | Version / Scope | Purpose |
@@ -91,23 +107,28 @@ Developed by **José Licarion Pinto Segundo Neto** at the **Process Analytical T
 | **`ggplot2`** | `^3.4.0` | High-quality statistical graphics rendering. |
 | **`reshape2`** | `^1.4.4` | Data reshaping and matrix-to-long format conversion for multi-way arrays. |
 | **`pracma`** | `^2.4.2` | Advanced numerical analysis, matrix math, and numerical integration functions. |
-| **`abind`** | `^1.4-5` | Multi-dimensional array binding and 3D tensor construction. |
 | **`ptw`** | `^1.9-15` | Parametric Time Warping, baseline correction, and peak alignment. |
-| **`base64enc`** | `^0.1-3` | Base64 encoding for self-contained visual assets. |
+| **`multiway`** | `^1.0-6` | PARAFAC, N-PLS, and multi-way array algorithms. |
+| **`eemR`** | `^1.0.1` | EEM data reading, fluorescence excitation-emission matrix tools. |
+| **`staRdom`** | `^0.2.8` | PARAFAC analysis and EEM fluorescence data processing. |
+| **`ggResidpanel`** | `^0.3.0` | High-level regression model residual diagnostic panels. |
+| **`GGally`** | `^2.1.2` | Extension of ggplot2 for multi-variable scatter matrices. |
+| **`ellipse`** | `^0.4.5` | Ellipse drawing for bivariate confidence intervals and PCA score plots. |
+| **`parsnip`** | `^1.1.0` | Tidy interface for unified model fitting and prediction. |
 
 ---
 
 ## 💻 Access & Execution
 
-This application is provided in two ready-to-use distribution models (the underlying `app.R` source code is closed-source and protected):
+This application is distributed under closed-source terms (the underlying `app.R` source code is not publicly distributed). Access is available through two deployment targets:
 
 1. **🌐 Online Web Version (Shinyapps.io):**
    * Access directly via web browser without installing R or any dependencies:
    * 🔗 **[https://ltap.shinyapps.io/second_order_calibration/](https://ltap.shinyapps.io/second_order_calibration/)**
 
 2. **🖥️ Desktop Executable Version:**
-   * Standalone Windows executable bundle (`.exe`) with embedded runtime environment. No prior R installation required.
-   * Contact the author/laboratory for standalone binary installation packages.
+   * Standalone Windows executable bundle (`.exe`) with an embedded runtime environment. No prior R installation required on the target machine.
+   * Contact the authors or laboratory for desktop installer requests.
 
 ---
 
@@ -129,28 +150,27 @@ This application is provided in two ready-to-use distribution models (the underl
 > This software, its interface designs, compiled binaries, and underlying algorithmic implementations are protected under Intellectual Property laws (Brazilian Software Law No. 9.609/98 and Industrial Property Law No. 9.279/96) and registered at the **National Institute of Industrial Property (INPI)**. 
 
 ### **Terms of Use & Protection Clause:**
-1. **Mandatory Attribution:** Any academic work, study, publication, software integration, or presentation utilizing or referencing this application **must explicitly credit** the author (**José Licarion Pinto Segundo Neto**) and the **Process Analytical Technology Laboratory (LTAP-UERJ)**.
+1. **Mandatory Attribution:** Any academic work, study, publication, software integration, or presentation utilizing or referencing this application **must explicitly credit** the authors (**Paulo Sérgio de Oliveira Cezário, Aderval Severino Luna, José Licarion Pinto Segundo Neto, Fabricio Chiappini, Benjamín Ángel Pisaroni, Héctor Casimiro Goicoechea, Alejandro Cesar Olivieri**) and the **Process Analytical Technology Laboratory (LTAP-UERJ / CONICET)**.
 2. **Prohibition of Unauthorized Reproduction & Redistribution:** Copying, modifying, decompiling, reverse engineering, re-licensing, sub-licensing, mirroring, or redistributing the binary executables or deployment packages without explicit prior written consent from LTAP-UERJ is strictly prohibited.
 3. **Non-Commercial Use Only:** The application may only be used for personal, educational, or non-commercial academic research purposes unless a specific commercial license has been granted by LTAP-UERJ.
-4. **Disclaimer of Liability:** LTAP-UERJ and the developer accept no responsibility or liability for damages, misinterpretation, or loss resulting from the use of this software or its generated datasets. The software is provided "as is", without warranties of any kind.
+4. **Disclaimer of Liability:** LTAP-UERJ, CONICET, and the developers accept no responsibility or liability for damages, misinterpretation, or loss resulting from the use of this software or its generated datasets. The software is provided "as is", without warranties of any kind.
 
 For licensing inquiries or commercial use permissions, please contact [licarion@gmail.com](mailto:licarion@gmail.com) or [ltapuerj@gmail.com](mailto:ltapuerj@gmail.com).
 
 ---
 
-## 📧 Author & Laboratory
+## 📧 Contact & Institutional Support
 
-**Process Analytical Technology Laboratory (LTAP/UERJ)**
+**Process Analytical Technology Laboratory (LTAP/UERJ)** & **CONICET**
 
-| Name | Role | Email |
-| :--- | :--- | :--- |
-| **José Licarion Pinto Segundo Neto** | Lead Developer / Author | [licarion@gmail.com](mailto:licarion@gmail.com) |
+We acknowledge financial and institutional support from **UERJ** (Programa Pró-Ciência and INOVUERJ), **FAPERJ** (JCNE and CNE research scholarships), **CONICET**, **CNPq** (Universal Grant 404077/2023-4), and **CAPES**.
 
 ---
 
 <p align="center">
   <a href="https://www.ltapuerj.com.br/">LTAP-UERJ</a> •
   <a href="https://www.uerj.br/">UERJ</a> •
+  <a href="https://www.conicet.gov.ar/">CONICET</a> •
   <a href="https://www.faperj.br/">FAPERJ</a> •
   <a href="https://www.gov.br/cnpq/pt-br">CNPq</a> •
   <a href="https://www.gov.br/capes/pt-br">CAPES</a>
